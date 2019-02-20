@@ -1,0 +1,30 @@
+{
+  "name": "hippo_proxy",
+  "version": "1.0.0",
+  "description": "> Project description",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor.git",
+    "nodemon": "^1.18.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tdo94/proxy_TD.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tdo94/proxy_TD/issues"
+  },
+  "homepage": "https://github.com/tdo94/proxy_TD#readme"
+}
